@@ -2,6 +2,8 @@
 class Notes {
 	public static void main(String[] args) {
 
+		// 1-D Array
+
 		int[] intArray = new int[25];
 		int[] intArray2 = { 1, 4, 6 };
 
@@ -26,8 +28,8 @@ class Notes {
 			for (int j = 0; j < intArray2D2[i].length; j++) { // j is a column
 				System.out.print(intArray2D2[i][j] + " "); // use print instead of println to keep all columns on the
 															// same row.
-			}
+			} //col
 			System.out.println(); // go down a line after each row prints
-		}
+		}//row
 	}
 }
